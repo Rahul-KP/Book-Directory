@@ -1,0 +1,13 @@
+JSON Structure:
+{
+	<ISBN>:{
+		"author":<Author Name>,
+		"title":<Book Title>
+	}
+}
+
+Algorithm:
+1. initialize express and jsondb
+2. create an object of express and instruct it to use json
+3. starts listening on a port
+4. Create 2 endpoints GET and POST 
