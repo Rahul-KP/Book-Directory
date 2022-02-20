@@ -1,0 +1,15 @@
+{
+  "name": "book-directory",
+  "version": "1.0.0",
+  "description": "Building a book directory for essentially developing a REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Rahul K P",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "simple-json-db": "^1.2.3"
+  }
+}
