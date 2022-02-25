@@ -21,3 +21,16 @@ Algorithm:
    	 author : <author name>,
    	 title : <Book title> 
    }
+
+GET
+	http://localhost:4567/?isbn=22345678911 - on a browser
+
+on wsl
+POST 
+   curl -X POST http://172.25.128.1:4567/ -H "Content-Type:application/json" -d "{\"isbn\":\"22345678914\",\"author\":\"Agatha Christie\",\"title\":\"The Hollow part 3\"}"
+
+PUT
+	curl -X PUT http://172.25.128.1:4567/ -H "Content-Type:application/json" -d "{\"isbn\":\"12345678910\",\"author\":\"Ruskin Bond\",\"title\":\"Room on the Rooftop part 2\"}"
+
+DELETE
+	curl -X DELETE http://172.25.128.1:4567/ -H "Content-Type:application/json" -d "{\"isbn\":\"12345678910\"}"
