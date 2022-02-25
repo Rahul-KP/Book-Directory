@@ -10,4 +10,14 @@ Algorithm:
 1. initialize express and jsondb
 2. create an object of express and instruct it to use json
 3. starts listening on a port
-4. Create 2 endpoints GET and POST 
+4. Create 2 endpoints GET and POST
+   GET REQUEST:
+   query parameter name:isbn
+   query parameter value:<isbn of the book to be searched>
+
+   POST REQUEST:
+   Accepts json - so specify Content-Type:application/json as a http header
+   { isbn : <isbn of the book to be added> ,
+   	 author : <author name>,
+   	 title : <Book title> 
+   }
