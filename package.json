@@ -1,5 +1,5 @@
 {
-  "name": "book-directory",
+  "name": "@rahul-kp/book-directory",
   "version": "1.0.0",
   "description": "Building a book directory for essentially developing a REST API",
   "main": "index.js",
